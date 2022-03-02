@@ -75,7 +75,7 @@
 }
 .container .card:hover .imgBx
 {
-    transform: translateY(-200px);
+    transform: translateY(-175px);
 }
 
 .container .card .imgBx img
@@ -84,12 +84,14 @@
     max-width: 100%;
     margin: 0 0 20px;
     transition: 0.5s ease-in-out;
+    transform: rotateY(180deg);
 
 }
 .container .card:hover .imgBx img
 {
     
-    transform:  translate(-20px,40px)rotate(-25deg)scale(1.4);
+    transform:  translate(-40px,40px)rotate(-25deg)scale(1.4) rotateY(180deg);
+    margin-bottom: 135px;
 }
 .container .card .imgBx h2
 {
