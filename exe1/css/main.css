@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #wrapper
 {
@@ -92,7 +92,7 @@
 {
     
     transform:  translate(-40px,100px)rotate(-25deg)scale(1.4) rotateY(180deg);
-    margin-bottom: 170px;
+    margin-bottom: 180px;
 }
 .container .card .imgBx h2
 {
@@ -125,6 +125,7 @@
 .container .card .content .color h3
 {
     color: #fff;
+    font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -132,7 +133,7 @@
 }
 .container .card .content .size span
 {
-    font-weight: 700;
+    font-weight: 500;
     width: 25px;
     height: 26px;
     text-align: center;
